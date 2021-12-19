@@ -1,1 +1,0 @@
-# Kuranganilmuttam Valeeswarar Koil Website
