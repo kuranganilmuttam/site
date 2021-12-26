@@ -16,6 +16,6 @@ gatsby build
 The static site using github pages uses gh-pages branch to which the public subtree is pushed as the content. To do that,
 
 ```
-git subtree push --prefix public origin gh-pages
+git push origin `git subtree split --prefix public main`:gh-pages --force
 ```
 
