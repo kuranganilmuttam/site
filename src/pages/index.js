@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 // markup
@@ -21,6 +22,8 @@ const IndexPage = () => {
           <div class="py-5 grid grid-cols-3">
             <div></div>
             <div class="text-center">
+              <StaticImage src="../images/temple-front.png" alt="Kuranganilmuttam koil" placeholder="blurred"
+              />
               <div class="italic py-5">
                 தென்னாடுடைய சிவனே போற்றி!<br />
                 எந்நாட்டவர்க்கும் இறைவா போற்றி!
