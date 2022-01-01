@@ -16,19 +16,21 @@ const IndexPage = () => {
         <h2 class="text-xl">வெம்பாக்கம் வட்டம், திருவண்ணாமலை மாவட்டம்</h2>
 
       </div>
-      <div class="grid grid-cols-6 p-5 text-gray-600">
+      <div class="grid grid-cols-1 text-gray-600 md:grid-cols-2 lg:grid-cols-6">
         <div class="col-span-1"></div>
         <div class="text-justify col-span-4">
-          <div class="py-5 grid grid-cols-3">
+          <div class="grid grid-cols-1">
             <div></div>
             <div class="text-center">
-              <StaticImage src="../images/temple-front.png" alt="Kuranganilmuttam koil" placeholder="blurred"
-              />
+              <div class="italic py-5">
+                <StaticImage src="../images/temple-front.png" alt="Kuranganilmuttam koil" placeholder="blurred"
+                />
+              </div>
               <div class="italic py-5">
                 தென்னாடுடைய சிவனே போற்றி!<br />
                 எந்நாட்டவர்க்கும் இறைவா போற்றி!
               </div>
-              <div>
+              <div class="italic py-5">
                 மையார் நிற மேனி அரக்கர் தம் கோனை <br />
                 உய்யா வகையால் அடர்த்து இன்னருள் செய்த<br />
                 கொய்யார் மலர் சூடி குரங்கணில்முட்டம்<br />
@@ -38,7 +40,7 @@ const IndexPage = () => {
             </div>
             <div></div>
           </div>
-          <div class="px-20">
+          <div class="px-10">
             இத்திருத்தலம்,
             தொண்டை மண்டலத்திலே பாடல் பெற்ற சிவத்தலங்கள் 32-ல் காஞ்சீபுரத்தில் முதல் 5 தலங்களும்,
             அடுத்து 6-வது திருத்தலமாக விளங்குகிறது. கி.பி.7-ஆம் நூற்றாண்டில் (637-ம் வருடம்) சுமார் 1400
@@ -64,7 +66,7 @@ const IndexPage = () => {
             கண்ணுறும் அன்பர்கள், அருளாளர்கள், பக்தகோடிகள் அனைவரும் தங்களால் இயன்ற பொருளுதவி
             அளிக்கவும், இயன்ற ஏதேனும் ஒரு திருப்பணியினை ஏற்று நடத்தி தந்து ஈசனின் இன்னருள் பெற்று
             உய்யவும் பணிந்து வேண்டுகிறோம்.
-            <div class="py-10 grid grid-cols-3">
+            <div class="pt-5 grid grid-cols-1">
               <div></div>
               <div class="font-semibold">
                 A/c No: 311622010000481 <br />
@@ -86,34 +88,6 @@ const IndexPage = () => {
         </div>
         <div class="col-span-1"></div>
       </div>
-      {/* <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul> */}
     </main >
   )
 }
