@@ -29,6 +29,7 @@ export default function Layout({ children }) {
                                         <div class="pr-5"><a href="/" class={isBrowser() && window.location.pathname === "/" ? 'text-yellow-800' : ''} >முகப்பு</a></div>
                                         <div class="px-5"><a href="/videos" class={isBrowser() && window.location.pathname === "/videos" ? 'text-yellow-800' : ''}>காணொளிகள்</a></div>
                                         <div class="px-5"><a href="/works" class={isBrowser() && window.location.pathname === "/works" ? 'text-yellow-800' : ''}>திருப்பணி மதிப்பீடு</a></div>
+                                        <div class="px-5"><a href="/contact" class={isBrowser() && window.location.pathname === "/contact" ? 'text-yellow-800' : ''}>தொடர்பு & வழி</a></div>
                                     </div>
                                     {/* <div class="md:hidden flex items-center">
                                         <button class="outline-none mobile-menu-button">
