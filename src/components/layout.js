@@ -27,6 +27,7 @@ export default function Layout({ children }) {
                                     <div class="flex justify-center flex-row px-10 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">
                                         <div class="pr-5"><a href="/" class={window.location.pathname === "/" ? 'text-yellow-800' : ''} >முகப்பு</a></div>
                                         <div class="px-5"><a href="/videos" class={window.location.pathname === "/videos" ? 'text-yellow-800' : ''}>காணொளிகள்</a></div>
+                                        <div class="px-5"><a href="/works" class={window.location.pathname === "/works" ? 'text-yellow-800' : ''}>திருப்பணி மதிப்பீடு</a></div>
                                     </div>
                                     {/* <div class="md:hidden flex items-center">
                                         <button class="outline-none mobile-menu-button">
