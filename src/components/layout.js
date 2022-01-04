@@ -13,12 +13,12 @@ export default function Layout({ children }) {
             <main>
                 <title>Kuranganilmuttam Valeeswarar Koil</title>
                 <div class="text-center text-yellow-800">
-                    <h1 class="text-3xl font-semibold py-10">
-                        அருள்மிகு இறையார் வளையம்மை சமேத <br />
-                        அருள்மிகு வாலீஸ்வரர் திருக்கோயில்
+                    <h1 class="text-3xl font-semibold pt-10 pb-5">
+                        <a href="/">அருள்மிகு இறையார் வளையம்மை சமேத <br />
+                            அருள்மிகு வாலீஸ்வரர் திருக்கோயில்</a>
                     </h1>
-                    <h2 class="text-xl">குரங்கணில்முட்டம், தூசி அஞ்சல் - 631702</h2>
-                    <h2 class="text-xl">வெம்பாக்கம் வட்டம், திருவண்ணாமலை மாவட்டம்</h2>
+                    <h2 class="text-xl font-semibold">1400 வருடங்களுக்கு மேல் பழமையான, பாடல் பெற்ற திருத்தலம்</h2>
+                    <h4 class="text-l pt-3">குரங்கணில்முட்டம், தூசி அஞ்சல் - 631702</h4>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div class="text-justify col-span-4">
