@@ -1,4 +1,5 @@
 import * as React from "react"
+import AccountDetails from "../components/account"
 import Layout from "../components/layout"
 
 
@@ -12,6 +13,9 @@ const ContactPage = () => {
         <div>
           அலைபேசி:  <p><a href="tel:+919003130621 ">+91 90031 30621 <br /> (திரு. பன்னீர் செல்வம், திருப்பணிக் குழு)</a></p>
         </div>
+      </div>
+      <div class="p-5">
+        <AccountDetails></AccountDetails>
       </div>
     </Layout>
   )

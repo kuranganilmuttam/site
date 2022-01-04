@@ -1,6 +1,8 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
+import AccountDetails from "../components/account"
+
 
 
 // markup
@@ -51,24 +53,7 @@ const IndexPage = () => {
           கண்ணுறும் அன்பர்கள், அருளாளர்கள், பக்தகோடிகள் அனைவரும் தங்களால் இயன்ற பொருளுதவி
           அளிக்கவும், இயன்ற ஏதேனும் ஒரு <a href="/works" class="text-yellow-800">திருப்பணியினை</a> ஏற்று நடத்தி தந்து ஈசனின் இன்னருள் பெற்று
           உய்யவும் பணிந்து வேண்டுகிறோம்.
-          <div class="pt-5 grid grid-cols-1">
-            <div></div>
-            <div class="font-semibold">
-              A/c No: 311622010000481 <br />
-              Name: K. M NATARAJAN <br />
-              BANK NAME: UNION BANK OF INDIA  BRANCH. DUSI BRANCH <br />
-              IFSC CODE: UBIN0931161 <br />
-              <p class="pt-5">
-                Other join account holders:
-                <ul>
-                  <li>E. PUGAZHENDI</li>
-                  <li>K. PANNEERASELVAM</li>
-                  <li>S. ELUMALAI</li>
-                </ul>
-              </p>
-            </div>
-            <div></div>
-          </div>
+          <AccountDetails></AccountDetails>
         </div>
       </div>
     </Layout>
