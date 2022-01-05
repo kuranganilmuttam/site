@@ -53,6 +53,30 @@ const IndexPage = () => {
           கண்ணுறும் அன்பர்கள், அருளாளர்கள், பக்தகோடிகள் அனைவரும் தங்களால் இயன்ற பொருளுதவி
           அளிக்கவும், இயன்ற ஏதேனும் ஒரு <a href="/works" class="text-yellow-800">திருப்பணியினை</a> ஏற்று நடத்தி தந்து ஈசனின் இன்னருள் பெற்று
           உய்யவும் பணிந்து வேண்டுகிறோம்.
+          <div>~~~~~~~~~~~~~~~~~~</div>
+        </div>
+        <div class="text-justify col-span-4 pt-10 px-10">
+          It is one of the shrines of the 275 <a class="text-yellow-800" href="https://en.wikipedia.org/wiki/Shiva_Temples_of_Tamil_Nadu#Paadal_Petra_Sthalangal_temples">Paadal Petra Sthalams
+          </a> – Shiva Sthalams glorified in the early medieval Tevaram poems by Tamil Saivite Nayanar Sambandar.
+          It's a Swayambu linga facing west. The rays of the Sun fall on certain days in Tamil month Chithirai (Apr-May).
+
+          <p class="pt-5">
+            Vaali worshipped Shiva at the entrance to the temple while a squirrel worshipped from the South and a crow from the North, hence the name Kuranganilmuttam. Hanuman is also believed to have worshipped Shiva here.
+          </p>
+
+          <p class="pt-5 font-semibold">Sambandar says people who gets the grace of Valeeswarar will find Mukthi (liberation) easier.</p>
+
+          <p class="pt-5">
+            The temple kumbhabhishekham did not happen for about four decades. It's government owned temple. After three years of persistence, finally
+            we have received permission to do the kumbhabhishekham. The temple is in a dilapidated state and needs revival. Government also has set tight
+            deadlines to complete the kumbhabhishekham.
+          </p>
+          <p class="pt-5">
+            The estimated works is 19 Lakhs. Raising funds for such amounts in a small village is really hard.
+            The temple of such importance cannot go neglected in our generation. Pleae contribute generaously to this temple.
+          </p>
+        </div>
+        <div class="px-10">
           <AccountDetails></AccountDetails>
         </div>
       </div>
