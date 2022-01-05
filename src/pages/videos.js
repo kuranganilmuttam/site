@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 const VideosPage = () => {
   return (
     <Layout>
+      <h1 class="text-xl text-center py-10">காணொளிகள் / Videos</h1>
       <div class="px-10 flex flex-col items-center">
         <div class="pt-10">
           <iframe src="https://www.youtube.com/embed/hZH1bQOSaBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

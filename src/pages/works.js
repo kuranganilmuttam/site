@@ -7,6 +7,7 @@ const WorksPage = () => {
     <Layout>
       <div></div>
       <div class="col-span-2">
+        <h1 class="text-xl text-center py-10">திருப்பணி / Renovation</h1>
         <div class="px-10">
           <ol class="list-decimal">
             <li class="pb-5"> சிதிலமடைந்த பைரவர் சன்னதி புனரமைப்பு <span class="pl-5 float-right">₹75,000</span></li>
