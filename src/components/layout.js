@@ -59,12 +59,12 @@ export default function Layout({ children }) {
                                     </div>
                                 </button>
                                 <div class="hidden mobile-menu text-white">
-                                    <div class="flex flex-col text-center px-10 hover:text-blue-500 transition duration-300" >
+                                    <div class="flex flex-col text-center px-10" >
                                         <div class="border-b pb-2"></div>
-                                        <div class="px-5 py-1 border-b"><a href="/" class={isPathMatching("/") ? 'font-bold' : ''} >முகப்பு/Home</a></div>
-                                        <div class="px-5 py-1 border-b"><a href="/videos" class={isPathMatching("/videos") ? 'font-bold' : ''}>காணொளிகள்/Videos</a></div>
-                                        <div class="px-5 py-1 border-b"><a href="/works" class={isPathMatching("/works") ? 'font-bold' : ''}>திருப்பணி/Renovation </a></div>
-                                        <div class="px-5 pt-1"><a href="/contact" class={isPathMatching("/contact") ? 'font-bold' : ''}>தொடர்பு & வழி/Contact</a></div>
+                                        <div class="px-5 py-1 hover:text-blue-500 transition duration-300 border-b"><a href="/" class={isPathMatching("/") ? 'font-bold' : ''} >முகப்பு/Home</a></div>
+                                        <div class="px-5 py-1 hover:text-blue-500 transition duration-300 border-b"><a href="/videos" class={isPathMatching("/videos") ? 'font-bold' : ''}>காணொளிகள்/Videos</a></div>
+                                        <div class="px-5 py-1 hover:text-blue-500 transition duration-300 border-b"><a href="/works" class={isPathMatching("/works") ? 'font-bold' : ''}>திருப்பணி/Renovation </a></div>
+                                        <div class="px-5 pt-1 hover:text-blue-500 transition duration-300"><a href="/contact" class={isPathMatching("/contact") ? 'font-bold' : ''}>தொடர்பு & வழி/Contact</a></div>
                                     </div>
                                 </div>
                             </div>
