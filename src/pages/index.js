@@ -72,7 +72,7 @@ const IndexPage = () => {
             deadlines to complete the kumbhabhishekham.
           </p>
           <p class="pt-5">
-            The estimated works is 19 Lakhs. Raising funds for such amounts in a small village is really hard.
+            The estimated works is 40 Lakhs. Raising funds for such amounts in a small village is really hard.
             The temple of such importance cannot go neglected in our generation. Pleae contribute generaously to this temple.
           </p>
         </div>
