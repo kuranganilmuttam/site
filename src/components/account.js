@@ -6,20 +6,12 @@ const AccountDetails = () => {
             <div></div>
             <div >
                 <div class="font-semibold pb-3">
-                    A/c No: 311622010000481 <br />
-                    Name: K. M NATARAJAN <br />
+                    Name: KURANGANILMUTTAM SIVANADIYARGAL THIRUKOOTA ARAKATALAI  <br />
+                    A/c No: 311622010000830 <br />
                     IFSC CODE: UBIN0931161 <br />
                 </div>
                 BANK NAME: UNION BANK OF INDIA <br />
                 BRANCH: DUSI BRANCH <br />
-                <p class="pt-2">
-                    Other join account holders:
-                    <ul>
-                        <li>E. PUGAZHENDI</li>
-                        <li>K. PANNEERASELVAM</li>
-                        <li>S. ELUMALAI</li>
-                    </ul>
-                </p>
             </div>
             <div></div>
         </div>
