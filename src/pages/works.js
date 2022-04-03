@@ -66,8 +66,10 @@ const WorksPage = () => {
             <p class="font-semibold">சுமார் நாற்பது லட்சம் மட்டும்</p>
           </div>
         </div>
+        <div class="pt-10 content-center col-span-2">
+          <iframe title="Tiruppani photos" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D136824355580694%26id%3D114611541135309&show_text=true&width=500" width="600" height="652" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
       </div>
-      <div></div>
     </Layout >
   )
 }
